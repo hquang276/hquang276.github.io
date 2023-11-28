@@ -1,0 +1,108 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#body
+{   background-color: rgb(246,232,215);
+    height: 100vh;
+    padding-top : 80px ;
+    padding-bottom: 80px ;
+    
+}
+
+#body .big_box{
+    height: 90%;
+    width: 90%;
+    margin-left: 5% ;
+    margin-top: 2%;
+    background-color: aqua;
+   
+}
+
+.big_box .small-box1 {
+    display: inline;
+    float : left ;
+    height: 100%;
+    width: 35%;
+   
+
+    background-color: red ;
+}
+
+.small_box1 .img  {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.big_box .small-box2{
+    display: inline;
+    float :right ;
+    height: 100%;
+    width: 65%;
+
+    background : rgb(136,112,87); ;
+
+}
+
+.small-box2 .content{
+    height: 80% ;
+    width: 100%;
+    margin-left: 1% ;
+}
+
+.content ul li{
+    
+    text-decoration: none;
+    margin: 1% 1% ;
+    list-style: none ;
+    font-size: 150% ;
+    
+}
+.content ul li h1{
+    text-align: center;
+
+}
+
+.content h2{
+    font-size: 200% ;
+    color: white ;
+
+}
+
+.small-box2 .input{
+    height: 20% ;
+    width: 100%;
+    text-align: center;
+    
+}
+.input .button-add{
+    display: inline;
+    float: left;
+    margin-left: 5%;
+    height: 80%;
+    width: 20% ;
+    font-size: 150% ;
+    border: 1px;
+    
+}
+
+.input .buy_now{
+    margin-right: 5%;
+    display: inline;
+    float: right;
+    height: 80%;
+    width: 20% ;
+    font-size: 150% ;
+}
+
+
+    

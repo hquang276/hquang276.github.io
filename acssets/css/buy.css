@@ -1,0 +1,317 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#body {
+
+    height: 100vh;
+    padding-top : 80px ;
+    padding-bottom: 80px;
+}
+
+#body .content-box{
+    height: 85%;
+    width: 85%;
+    margin-left: 9%;
+    margin-top: 2%;
+    background: linear-gradient(to right,rgb(179, 148, 114),rgb(189, 124, 54));
+    padding: 2%;
+    border: 1px solid black ;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 0 ;
+    
+
+}
+
+.content-box .bigbox1{
+    height: 100%;
+    width: 55%;
+    display: inline;
+    float: left;
+    overflow-y :scroll;
+}
+
+.bigbox1 .shopping-cart {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(179, 148, 114);
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color:white;
+    font-size: 25px;
+    font-weight: 400px;
+    text-align: center;
+  }
+   
+  .item {
+    padding: 2% 3%;
+    height: 15%;
+    display: flex;
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+  }
+   
+
+  .item .buttons {
+    height: 100%;
+    width: 5%;
+    position: relative;
+    padding-top: 5%;
+    margin-right: 6%;
+  }
+  .delete-btn
+    {
+    display: inline-block;
+    Cursor: pointer;
+  }
+  .delete-btn {
+    width: 25px;
+    height: 30px;
+    background: url(/acssets/icon/trash-solid.svg) no-repeat center;
+  }
+   
+
+  .is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+  }
+   
+  @keyframes animate {
+    0%   { background-position: left;  }
+    50%  { background-position: right; }
+    100% { background-position: right; }
+  }
+
+  .image {
+    height: 100%;
+    width: 20%;
+  }
+
+  .image img{
+    height: 50%;
+    width: 50%;
+  }
+   
+  .description {
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 100%;
+    width: 30% ;
+    width: 115px;
+    text-align: center;
+  }
+   
+  .description span {
+    font-size: 120% ;
+    color: white;
+    
+  }
+   
+  .description span:first-child {
+    margin-bottom: 5px;
+  }
+
+
+  .quantity {
+    width: 30%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+  }
+  .quantity input {
+    
+    margin: 0 3%;
+    display: inline;
+    border: none;
+    text-align: center;
+    width: 50%;
+     font-size: 20px;
+    color: #43484D;
+    font-weight: 300;
+  }
+   
+  button[class*=btn] {
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+ 
+   
+  button:focus,
+  input:focus {
+    outline:0;
+  }
+
+
+  .total-price {
+    width: 20%;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+    font-weight: 300;
+  }
+
+  @media (max-width: 100%) {
+    .shopping-cart {
+      width: 100%;
+      height: auto;
+      overflow-y: hidden;
+    }
+    .item {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .image img {
+      width: 50%;
+    }
+    .image,
+    .quantity,
+    .description {
+      width: 100%;
+      text-align: center;
+      margin: 6px 0;
+    }
+    .buttons {
+      margin-right: 20px;
+    }
+  }
+
+.content-box .bigbox2{
+    background-color: wheat;
+    height: 100%;
+    width: 35%;
+    display: inline;
+    float: right;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    
+}
+.content-box .content{
+    height: 15%;
+    width: 100%;
+    
+}
+
+.content .title2{
+    height: 60px;
+    border-bottom: 1px solid black;
+    padding: 2% 3%;
+    color:white;
+    font-size: 25px;
+    font-weight: 400px;
+    text-align: center;
+   
+
+}
+.content-box .check_out{
+    width: 100%;
+    height: 80%;
+}
+
+.information input{
+    padding-right: 50%;
+    line-height: 160%;    
+    margin: 1%;
+    background-color: white; 
+    border: 1px solid black;
+}
+
+
+.check_out .information{
+    height: 40%;
+    width: 100%;
+    
+}
+.information p{
+    padding: 2% 0;
+    font-size: 120%;
+    font-weight: 400px;
+    
+}
+
+.check_out .payment{
+    height: 15%;
+    width: 100%;
+    padding-top: 2%;
+
+}
+
+.payment p{
+    font-size: 120%;
+    font-weight: 400px;
+    padding-left: 2%;
+}
+
+.payment input{
+    margin-left: 3%;
+}
+
+
+
+
+
+.check_out .total-prices{
+    height: 30%;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 2%;
+    
+    
+}
+
+.total-prices p{
+    
+    padding-bottom: 2%;
+    font-size: 130%;
+}
+
+.total-prices b{
+    color: green ;
+}
+
+.check_out .done{
+    margin-top: 13%;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.done button{
+    text-align: center;
+    width: 85%;
+    line-height: 200%;
+    font-size: 150%;
+    border-radius: 10px;
+    border:1px;
+    margin-bottom: 5%;
+    padding-left: 5% ;
+    background-color: rgb(179, 148, 114);
+}
+
+.done button:hover{
+    background-color: green ;
+    color: black;
+}
+
+
+

@@ -1,0 +1,98 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#body
+{   background-color: rgb(246,232,215);
+    height: 100vh;
+    padding-top : 80px ;
+    padding-bottom: 80px ;
+}
+#body .box1{
+    float : left ;
+    height: 100%;
+    width: 55%;
+    padding: 2% 5%;
+     
+}
+#body .box1 img{
+    height: 100%;
+    width: 100% ;
+}
+#body .box2 {
+    display: inline ;
+    height: 100%;
+    width: 45% ;
+    float: right ;
+    padding: 2% 6%;
+    margin : 0 auto ;
+}
+#body .box2 .small-box {
+    height: 100% ;
+    width: 100%;
+    background-color: rgb(136,112,87);
+}
+#body .box2 .small-box .small-box1{
+    height: 20%;
+    width: 100% ;
+    color : white ;
+    padding-top: 5% ;
+}
+#body .box2 .small-box .small-box1 h1{
+    font-size: 400%  ;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+#body .box2 .small-box .small-box2 {
+    height: 15% ;
+    width: 100% ;
+    color: white;
+}
+#body .box2 .small-box .small-box2 h2{
+    text-align: center;
+    margin-top: 3% ;
+}
+#body .box2 .small-box .small-box3 {
+    height: 45% ;
+    width: 100% ;
+    color : rgb(245, 222, 195); 
+}
+#body .box2 .small-box .small-box3 ul{
+    height: 60%;
+    width: 100% ;
+}
+#body .box2 .small-box .small-box3 ul li{
+    font-size: 150% ;
+    margin : 2% 0 ;
+    margin-left : 20% ;
+
+}
+.small-box .small-box4 {
+    height: 20% ;
+    width: 100% ;
+}
+.small-box .small-box4 .rent-now{
+    height: 40% ;
+    width: 100% ;
+    text-align: center;
+}
+#body .rent-now a{
+    text-decoration: none; 
+    padding: 3% 4% ;
+    border: 1px solid rgb(245, 222, 195);
+    font-size: 150%  ;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 50px;
+}
+#body .rent-now a:hover{
+    background-color: rgb(245, 222, 195);
+    color: black;
+}
+
+
+
+

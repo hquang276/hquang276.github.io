@@ -1,0 +1,203 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#body {
+    overflow-y: scroll;
+    height: 100vh;
+    padding-top : 80px ;
+    padding-bottom: 80px;
+}
+
+#body .shopping-cart {
+  width: 80%;
+  height: fit-content;
+  margin: 80px auto;
+  background-color: rgb(179, 148, 114);
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color:white;
+    font-size: 25px;
+    font-weight: 400px;
+    text-align: center;
+  }
+   
+  .item {
+    padding: 2% 3%;
+    height: 30%;
+    display: flex;
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+  }
+   
+
+  .item .buttons {
+    height: 100%;
+    width: 10%;
+    position: relative;
+    padding-top: 3%;
+    margin-right: 6%;
+  }
+  .delete-btn
+    {
+    display: inline-block;
+    Cursor: pointer;
+  }
+  .delete-btn {
+    width: 25px;
+    height: 30px;
+    background: url(/acssets/icon/trash-solid.svg) no-repeat center;
+  }
+   
+
+  .is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+  }
+   
+  @keyframes animate {
+    0%   { background-position: left;  }
+    50%  { background-position: right; }
+    100% { background-position: right; }
+  }
+
+  .image {
+    height: 100%;
+    width: 20%;
+  }
+
+  .image img{
+    height: 20%;
+    width: 40%;
+  }
+   
+  .description {
+    margin-top: 2%;
+    margin-right: 60px;
+     height: 100%;
+    width: 30% ;
+    width: 115px;
+    text-align: center;
+  }
+   
+  .description span {
+    display: block;
+    font-size: 120% ;
+    color: white;
+    
+  }
+   
+  .description span:first-child {
+    margin-bottom: 5px;
+  }
+  .description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color:wheat;
+  }
+
+  .quantity {
+    width: 30%;
+    height: 100%;
+    margin-top: 2%;
+    margin-left: 5%;
+    
+  }
+  .quantity input {
+    margin: 0 3%;
+    display: inline;
+    border: none;
+    text-align: center;
+    width: 30%;
+     font-size: 20px;
+    color: #43484D;
+    font-weight: 300;
+  }
+   
+  button[class*=btn] {
+    
+    width: 25px;
+    height: 25px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+ 
+   
+  button:focus,
+  input:focus {
+    outline:0;
+  }
+
+
+  .total-price {
+    width: 100%;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+  }
+
+  @media (max-width: 800px) {
+    .shopping-cart {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    .item {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .image img {
+      width: 50%;
+    }
+    .image,
+    .quantity,
+    .description {
+      width: 100%;
+      text-align: center;
+      margin: 6px 0;
+    }
+    .buttons {
+      margin-right: 20px;
+    }
+  }
+
+#body .buy_butt{
+    width: 100%;
+    height: 20%;
+    display: inline;
+    float: right;
+
+}
+
+.buy_butt a{ 
+ 
+   margin-right: 5%;
+   font-size: 200%;
+   background-color: rgb(179, 148, 114);
+   padding: 1%;
+   border-radius: 50px;
+}
+
+.buy_butt a:hover{
+    background-color: wheat;
+    color: black;
+}

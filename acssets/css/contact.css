@@ -1,0 +1,111 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#body {
+    height: 100vh;
+    padding-top : 80px ;
+    padding-bottom: 80px ;
+    background: url(../img/login_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#body .form-container {
+    width: 30%;
+    height: fit-content;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+    
+}
+
+.form-container h2{
+    color : brown;
+}
+
+label{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+   
+    font-size: large;
+}
+input{
+    margin-bottom: 2%;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block;
+    font-size: xx-large;
+    text-align: left;
+}
+
+textarea {
+    height: 70px;
+    margin-bottom: 2%;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block;
+    font-size: xx-large;
+    text-align: left;
+}
+button{
+  
+    padding: 10px 20px;
+    background-color: #060606;
+    color: #f8f9fd;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 30%;
+    box-sizing: border-box;
+}
+button:hover{
+    background-color: blue;
+}
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Điều này là để căn giữa theo chiều dọc, có thể thay đổi tùy ý */
+}
+.thank-you-message {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    font-size: x-large;
+    width:100%;
+    margin: 0 auto;
+    background: rgba(58, 6, 6, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

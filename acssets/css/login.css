@@ -1,0 +1,130 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#body
+{   
+    height: 100vh;
+    padding-top : 80px ;
+    padding-bottom: 80px ;
+}
+
+#body .box2 {
+    height: 100%;
+    width: 80% ;   
+    padding: 2% 6%;
+    margin-left: 10.5%;
+  
+}
+#body .box2 .small-box {
+    height: 100% ;
+    width: 100%;
+    background-color: rgb(136,112,87);
+}
+#body .box2 .small-box .small-box1{
+    height: 20% ;
+    width: 100% ;
+    text-align: center;
+}
+
+#body .box2 .small-box .small-box2{
+    height: 10% ;
+    width: 100% ;
+}
+#body .box2 .small-box .small-box2 h1{
+    font-size: 250%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2% ;
+    text-align: center;
+}
+#body .box2 .small-box .small-box3 {
+    height: 70% ;
+    width: 100% ;
+}
+#body .box2 .small-box .small-box3 .content {
+    margin : 0 auto ;
+    height: 100% ;
+    width: 100% ;
+} 
+#body .box2 .small-box .small-box3 .content .login {
+    height: 60%;
+    width: 100% ;
+    margin-bottom: 2% ;
+}
+#body .box2 .small-box .small-box3 .content .login h2{
+     font-size: 150% ;
+     margin-left: 3%;
+     margin-bottom: 3% ;
+     display: inline-block;
+     color: white ;
+
+}
+#body .box2 .small-box .small-box3 .content .login input{
+    width: 90%;
+    margin: 0 5% ;
+    padding: 2% 5%;
+    outline: none;
+    border: 1px solid rgb(245, 222, 195);
+    font-size: 100%;
+    letter-spacing: 1px;
+    color: white ;
+    background: transparent ;
+    border-radius: 10px;
+} 
+#body .box2 .small-box .small-box3 .content .login input:hover{
+    background-color: rgb(245, 222, 195);
+    color : black ;
+}
+#body .box2 .small-box .small-box3 .content .create-login{
+    height: 10%;
+    width: 100%;
+}
+#body .box2 .small-box .small-box3 .content .create-login .create {
+    float: left ;
+    margin-top : 1.5% ;
+    margin-left : 5% ;
+    font-size: 110%;
+    text-decoration: none ;
+    color: rgb(245, 222, 195) ;
+}
+#body .box2 .small-box .small-box3 .content .create-login .forgot {
+    float: right ;
+    margin-top : 1.5% ;
+    margin-right : 5% ;
+    font-size: 110%;
+    text-decoration: none ;
+    color: rgb(245, 222, 195) ;
+}
+#body .box2 .small-box .small-box3 .content .create-login a:hover{
+    color: black;
+}
+
+#body .box2 .small-box .small-box3 .content .account {
+    height: 30%;
+    width: 100%;
+    margin : 0 auto ; 
+}
+#body .box2 .small-box .small-box3 .content .account input{
+    width: 60%;
+    text-decoration: none;
+    margin: 3% 20% ;
+    padding: 3% 5%;
+    outline: none;
+    border: 1px solid black;
+    font-size: 150% ;
+    letter-spacing: 1px;
+    background-color: rgb(136,112,87);
+    color: white ;
+    border-radius: 50px;
+}
+#body .box2 .small-box .small-box3 .content .account input:hover{
+    background-color: rgb(245, 222, 195) ;
+    color: black ;
+}
+
+
+
+

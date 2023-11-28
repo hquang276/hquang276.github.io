@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.clear {
+        clear: both; 
+}
+html{
+    background-color: rgb(109, 64, 15);
+}
+
+#body
+{
+       
+        padding-top: 80px;
+        padding-bottom: 80px;
+        height: 100vh;
+}
+#body .big-box{
+        border-radius: 50px;
+        height: 100%;
+        width: 85%;
+        background-color: rgb(209, 176, 140);
+        margin: 0% 7%;
+}
+.box-1{
+        float: left;
+        width: 100%;
+        height: 20%;
+      
+         
+}
+#body .big-box .box-1 h1{
+        text-align: center;
+        font-size: 250%;
+        padding-top: 1%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        font-weight: 200;
+}
+#body .big-box .box-1 h2{
+        text-align: center;
+       
+        font-size: 150%;
+        padding-top: 0%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#body .big-box .box-2{
+        height: 60%;
+        width: 100%;
+        
+        float: left;
+}
+#body .big-box .box-2 .small-box{
+        float: left;
+        height: 100%;
+        width: 50%;
+        
+}
+#body .big-box .box-2 .small-box h3{
+        font-size: 150%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        font-weight: 200;
+}
+#body .big-box .box-2 .small-box .register input{
+        width: 85%;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 200%;
+        font-size: 150%;
+        border-radius: 10px;
+        border:1px;
+        margin-bottom: 5%;
+        padding-left: 5% ;
+       
+        
+}
+#body .big-box .box-2 .small-box .register input:hover{
+        background-color: rgb(197, 154, 116);
+        border-style: none;
+}
+
+#body .big-box .box-2 .small-box h3{
+        font-size: 150%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        color: rgb(241, 238, 234);
+        font-weight: 200;
+}
+#body .big-box .box-3{
+        height: 20%;
+        width: 100%;
+  
+        float: left;
+                   
+}
+#body .big-box .box-3 .create{
+       text-align: center; 
+}
+#body .big-box .box-3 .create input{
+        margin-top:auto;
+        padding: 0% 15%;
+        line-height: 250%;
+        font-size: 200%;
+        border-radius: 40px;
+        margin: 1%;
+        color: rgb( 246,232,215 );
+        background-color: rgb(109, 64, 15);
+        border: 1px;
+}
+#body .big-box .box-3 .create input:hover{
+        background-color: rgb(179, 148, 114)
+}
+
+#body .big-box .login {
+        margin: 0 auto;
+        text-align: center;
+}
+
+#body .big-box .box-3 .login a{
+        color: rgb(109, 64, 15);
+        
+}
+
+
+
+
+
+
+
